@@ -1,0 +1,17 @@
+#nd{
+    background-image: url(background-img.png) ;
+    background-size: 100px 200px;
+    width: auto;
+	height: auto;
+c
+    font-size: 2rem;
+    line: 2px;
+    color: rgb(9, 132, 124);
+}
+h1{
+    text-align: center;
+}
+#indam{
+    background-color: rgb(9, 132, 124);
+    color: #ffffff;
+}

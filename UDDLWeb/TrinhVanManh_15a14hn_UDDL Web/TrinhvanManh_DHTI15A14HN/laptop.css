@@ -1,0 +1,339 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+img{
+	border: none;	
+}
+
+#all{
+	width: 990px;
+	height: auto;
+	margin: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+	list-style: none;	
+}
+#top{
+	width: 990px;
+	height: 161px;
+}
+#banner{
+	width: 100%;
+	height: 130px;
+	background:url(images/banner.gif);
+	text-align: right;
+    
+}
+#left_ban{
+	width: 220px;
+	height: auto;
+	float: left;
+}
+#lang{
+	width: 220px;
+	background: url(images/menu-lang-bg.gif) repeat-x;
+	height: 18px;
+	text-align: center;
+	padding: 7px 0 6px 0;
+	margin-top: 0px;
+}
+#lang a{
+	color: white;
+	font-weight: bold;
+	margin: 0px 5px 0 3px;
+}
+#lang img{
+	border: 0px;
+	margin-right: 2px;
+}
+#nav{
+	width: 990px;
+	height: 31px;
+	background: url(images/menu-bg.gif) repeat-x;
+}
+#nav ul{
+	width: 758px;
+	height: 31px;
+	background: url(images/menu-2.gif) no-repeat top left;
+	float: right;
+	margin-right: 2px;
+	text-align: right;
+	padding-right: 10px;
+	position: relative;	
+	
+}
+#main{
+	display: flex;
+}
+#nav ul li a{
+	font-size: 13px;
+	color: white;
+	font-weight: bold;	
+}
+#ps{
+	position: absolute;
+	right: -2px;	
+}
+#nav ul li{
+	display: inline-block;
+	height: 31px;
+	padding: 0 17px 0 10px;
+	background: url(images/menu-3.gif) no-repeat top right;
+}
+#nav ul li#none{
+	background: none;
+}
+#left{
+	width: 210px;
+	height: auto;
+}
+#list{
+	width: 200px;
+	height: auto;
+	border: 1px solid #555;
+	border-radius: 6px;
+	padding: 3px 5px;
+	margin-top: 5px;
+	color: #555;
+	font-weight: bold;
+}
+.b_left{
+	position: absolute;
+	left: 0px;
+	height: 27px;
+}
+#tieudetrai{
+	background: url(images/tcat_bg.gif);
+	border-radius: 3px;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position: relative;
+	
+}
+#list ul li{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 30px;
+	background: url(images/new.gif) no-repeat center left;
+	background-position: 12px 10px;
+	border-bottom: 1px dotted #555;
+}
+
+#hotline-tt{
+	background: url(images/tcat_bg.gif);
+	border-radius: 3px;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+#hotline{
+	width: 200px;
+	height: auto;
+	border: 1px solid #555;
+	border-radius: 6px;
+	padding: 3px 5px;
+	margin-top: 5px;
+	color: #555;
+	font-weight: bold;
+}
+#main-hotline{
+	margin-top: 10px;
+	text-align: center;
+}
+#tigia-tt{
+	background: url(images/tcat_bg.gif);
+	border-radius: 3px;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+#tigia{
+	width: 200px;
+	height: auto;
+	border: 1px solid #555;
+	border-radius: 6px;
+	padding: 3px 5px;
+	margin-top: 5px;
+	color: #555;
+	font-weight: bold;
+}
+#tigia table{
+	margin: 6px 3px;
+	width: 95%;
+}
+#chovui{
+	background: url(images/stats.gif) no-repeat center left;
+	width: 200px;
+	height: auto;
+	border: 1px solid #555;
+	border-radius: 6px;
+	padding: 3px 5px;
+	margin-top: 5px;
+	color: #555;
+	font-weight: bold;
+	text-align: center;
+}
+#mid{
+	width: 510px;
+	height: auto;
+	margin-left: 28px;		
+}
+#mid-tt{
+	display: flex;
+	width: 100%;
+	height: 27px;
+	margin: 20px auto;
+	background: url(images/border-head.jpg) repeat-x bottom;
+	text-indent: 3px;
+	color: #06F;
+	font-size: 14px;
+	font-weight: bold;
+}
+.spham{
+	width: 240px;
+	height: auto;
+	margin: 5px;
+	float: left;
+	text-align:center;
+	border: 1px solid #09F;
+	padding: 5px 0 7px 0;	
+	font-size: 14px;
+}
+.productImages{
+	margin: 10px auto;
+	width: 220px;
+	height: 190px;	
+}
+.productImages img{
+	width: 100%;
+	height: 100%;	
+}
+.productName{
+	font-size: 16px;
+	font-weight: bold;
+	color: #06F;
+}
+.price{
+	font-size: 14px;	
+}
+.mua{
+	margin-left: 55px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #111;
+	font-weight: bold;	
+	display: flex;
+}
+#right{
+	margin-left: 28px;
+	width: 200px;
+	height: auto;
+	
+}
+#giohang{
+	width: 210px;
+	height: auto;
+	border: 1px solid #555;
+	border-radius: 6px;
+	margin-top: 5px;
+	color: #555;
+	font-weight: bold;
+}
+#giohang_sp{
+	margin:30px 30px ;
+	display: flex;
+}
+#giohang_sp span{
+	color: red;
+}
+#search{
+	width: 200px;
+	height: auto;
+	border: 1px solid #555;
+	border-radius: 6px;
+	padding: 3px 5px;
+	margin-top: 5px;
+	color: #555;
+	font-weight: bold;
+}
+
+#tk{
+	background: url(images/tcat_bg.gif);
+	border-radius: 3px;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position: relative;
+
+}
+#textbox{
+	margin: 20px 20px;
+	height: 25px;
+}
+#textbox input{
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+}
+#spbc{
+	width: 200px;
+	height: auto;
+	border: 1px solid #555;
+	border-radius: 6px;
+	padding: 3px 5px;
+	margin-top: 5px;
+	color: #555;
+	font-weight: bold;
+}
+
+#footer{
+	width: 990px;
+	height: 50px;
+	border: #09F solid 2px;
+	background-color: #e5e5e5;
+	border-radius: 6px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+#footer ul{
+	display: flex;
+	color: #06F;
+}
+#footer a{
+	padding: 10px;
+	color: #06F;
+}
+#dchi{
+	margin: 10px;
+	text-align: center;
+}
+#dchi p{
+	font-size: 14px;
+	font-style:initial;
+}

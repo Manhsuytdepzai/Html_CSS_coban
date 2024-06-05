@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+    font-size: 4rem;
+    color: green;
+}
+#boss{
+    font-size: 2rem;
+}
+#tin{
+    background-color: aliceblue;
+}
+#tin p{
+    margin-left: 25%;
+}

@@ -1,0 +1,100 @@
+.row {
+    display: flex;
+}
+.column {
+    margin-top: -6rem;
+    flex: 1;
+}
+#name{
+    color: blue;
+    font-size: 1rem;
+    text-align: left;
+    height: 40px;
+    width: 65%;
+}
+.tsv{
+    text-align: center;
+    border: 5px;
+    border-color: green;
+    height: 45px;
+    width: 150%;
+    margin-left:-30%;
+}
+#nam{
+    border: greenyellow;
+    color: rgb(50, 72, 16);
+    font-size: 1rem;
+    text-align: left;
+    height: 45px;
+    width: 150%;
+    margin-left: -32%;
+}
+.hanggiua{
+    flex: 1;
+}
+.hanggiua1{
+    flex : 1;
+    text-align: right;
+}
+.dau{
+    display: flex;
+}
+/* .mo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background-image:linear-gradient(to top, white, black); 
+}  */
+.garena{ 
+    height: 70%;
+    width: 100%;
+} 
+.tt{
+    position: absolute;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 60%;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255), -2px -2px 5rgb(0, 0, 0);
+}
+.nut{
+    width: 31%; 
+    height: 110%;
+}
+
+.midd{
+    margin-top: 0px;
+    text-align: center;
+    height: 50px;
+    width: 150%;
+    margin-left: -32%;
+}
+tr{
+    height: 40px;
+}
+.noidung{
+    width: 95%;
+}
+.tieude{
+    border: 1px;
+    background-color: rgb(139, 214, 227); 
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+}
+#anhht{
+    height: 30%;
+    width: 100%;
+}
+#anhchim{
+    height: 50%;
+    width: 60%;
+}
+.benphai{
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    margin-left: 22%;
+}

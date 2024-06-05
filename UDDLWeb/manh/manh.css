@@ -1,0 +1,70 @@
+*{
+    margin: 0; /* Loại bỏ margin mặc định */
+    padding: 0; /* Loại bỏ padding mặc định */
+}
+:root{
+    --manh : rgb(0, 0, 0);
+}
+html{
+    font-size: 100%; 
+}
+h1{
+    color: var(--manh);
+    font-size: 3rem;
+}
+b:hover{
+    color:rgb(222, 47, 47);
+}
+h1:hover{
+    color:rgb(225, 25, 162);
+}
+.a{
+    padding-left: 60px;
+    list-style-type: georgian;
+}
+lu{
+    color : var(--manh);
+    font-size: 2rem;
+}
+#l{
+    font-size: 1rem;
+}
+i{
+    font-size: 2rem;
+}
+.box{
+    color: var(--manh);
+    background: rgb(255, 255, 255) 100%;
+
+    
+}
+a:hover{
+    font-size: 2rem;
+    color:rgb(213, 219, 37)
+
+}
+/* .box{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: aqua;
+
+} */
+
+.b{
+    color: rgb(41, 201, 219);
+    width: 25%;
+    height: 70px;
+    background: rgb(175, 231, 217);
+    border: 5px solid black;
+    font-style: oblique;
+}
+.c{
+    background: rgb(175, 231, 217);
+    width: 100%;
+    height: 80px;
+    font-size: 4rem;
+    color: rgb(41, 201, 219);
+    border: 5px solid black;
+    
+
+}

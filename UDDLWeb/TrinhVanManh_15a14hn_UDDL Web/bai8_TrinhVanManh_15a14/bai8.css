@@ -1,0 +1,44 @@
+.dau{
+    display: flex;
+}
+.mo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 45%;
+    width: 100%;
+    background-color:linear-gradient(to top, white, black); 
+} 
+.xe{
+    
+    height: 80%;
+    width: 100%;
+} 
+
+.tt{
+    font-size: 400%;
+    margin-top: -150px;
+    margin-left: 50%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+.nut{
+    margin-top: -60px;
+}
+#name{
+    color: blue;
+    font-size: 1rem;
+    text-align: left;
+    height: 30px;
+    width: 300px;
+}
+.mid{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -15rem;
+}
+.noidung{
+    width: 20rem;
+    height: 5rem;
+}
+

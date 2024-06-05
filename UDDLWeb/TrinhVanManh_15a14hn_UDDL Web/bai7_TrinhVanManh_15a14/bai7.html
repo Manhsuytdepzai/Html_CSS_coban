@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai7.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="gom">
+        <h2 class="box"><center>Billing info</center></h2>
+        <div id="wrapper" align = "middle" class="box2">
+            <form method="post" action="url">
+                <table>
+                    <tr>
+                        <th>Full name *</th>
+                        <th>
+                            <input type="text" value="" name="name" size="100%"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Company</th>
+                        <th>
+                            <input type="text" value="" name="Company" size="100%"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Address *</th>
+                        <th>
+                            <input type="text" value="" name="Address" size="100%"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <th>
+                            <input type="text" value="" name="City" size="100%"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <th>
+                            <input type="text" value="" name="Country" size="100%"/>
+                        </th>
+                        
+                    </tr>
+                    <tr class="fax">
+                        <th>Phone</th>
+                        <th>
+                            <input type="text" value="" name="Phone" size ="40%"/>
+                            fax
+                            <input type="text" value="" name="fax" size="45%"/>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <th>
+                            <input type="text" value="" name="Email" size="100%"/>
+                        </th>
+                    </tr>
+                </table>
+                <hr width="100%"
+                color="red"
+                align="middle"
+                size="5px">
+            </form>
+        </div>
+        <div>
+            <form method="post" action="url" class="box3">
+                <b>
+                    <p style="margin-left: -15%;">Term of payment *</p>
+                <input type="radio" value="" name="radio"> L/C at sight <br>
+                <input type="radio" value="" name="radio"> D/P at sight <br>
+                <input type="radio" value="" name="radio">T.Tr at sight(30% in advance, 70% after recived shipping documents in FAX) <br>
+                <table>
+                    <p style="margin-left: -15%;">Content: *</p> 
+                    <input class="bl" type="text" value="" name="text"/>
+                </table>
+                </b>
+            </form>
+            <p><i>Fields with a* are required</i></p>
+            <form action="url" align = "middle">
+                <input class="out" type="button" value="Submit" name="button" > 
+                &emsp; &emsp; &emsp; &emsp; 
+                <input class="out" type="button" value="Reset" name="button">
+            </form>
+            <p> </p>
+        </div>
+    </div>
+</body>
+</html>

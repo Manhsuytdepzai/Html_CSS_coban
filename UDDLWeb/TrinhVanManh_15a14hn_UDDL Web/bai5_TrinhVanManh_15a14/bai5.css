@@ -1,0 +1,21 @@
+.row {
+
+    display: flex;
+}
+.column {
+    flex: 1;
+}
+#s{
+    font-size: 2rem;
+    margin-left: 20px;
+}
+a{
+    font-size: 2rem;
+}
+.tt{
+    font-size: 4rem;
+    text-align: center;
+}
+#giua{
+    margin-left: 20px;
+}

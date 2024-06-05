@@ -1,0 +1,25 @@
+.boss{
+    background-color: rgb(135, 82, 12);
+    width: 80%;
+	height: auto;
+	margin: auto;
+    font-size: 2rem;
+    line: 2px;
+    color: white;
+}
+.boss p{
+    margin-left: 10px;
+}
+h1{
+    margin-top: 0;
+    text-align: center;
+    color: rgb(235, 182, 47);
+}
+.nd {
+  
+    background-image: url(Vạn-Lý-Trường-Thành-ivivu-2-1024x576.jpg); /* Đường dẫn tới file hình ảnh */
+    background-size: 400px 500px;
+    background-repeat: no-repeat; /* Hiển thị hình ảnh đầy đủ kích thước, tự động điều chỉnh kích thước để che phủ toàn bộ phần tử */
+    background-position: center; /* Canh chỉnh hình ảnh vào trung tâm */ /* Màu chữ trắng để tương phản với hình nền */
+
+}

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    font-size: larger;
+}
+.image-section {
+    flex: 3;
+    text-align: center;
+    background-color: #ffffff;
+    padding: auto;
+}
+.text-section {
+    flex: 7;
+    background-color: #ffffff;
+    padding: 20px;
+}
+#i{
+    border: 1px solid black;
+   
+}
+h2{
+    color: rgb(223, 112, 223);
+    margin-left: 20%;
+}

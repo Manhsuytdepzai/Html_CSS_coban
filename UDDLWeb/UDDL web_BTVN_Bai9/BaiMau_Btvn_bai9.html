@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!Thuộc tính charset dùng để xác định kiểu mã hóa ký tự của trang web -->
+    <!Tiếng Việt của chúng ta sử dụng kiểu mã hóa ký tự là UTF-8 -->
+    <title>Bài 9</title>
+    
+</head>
+<body>
+<!Khối banner header -->
+    <!Thuộc tính Id để xác định 1 phần tử duy nhất -->
+        <!Thuộc tính Class để xác định tập hợp các phần tử -->
+
+    <div id="main" style="padding: 0; margin: 0; box-sizing: border-box; font-family: Arial, sans-serif; 
+                    display: inline-block">
+        <!tên id:main 
+        <!Định dạng padding - khoảng không cho thành phần trên dưới trái phải - padding-top right bottom left 
+        <!margin canh lề -->
+        <!box-sizing -  giữ nguyên kích thước mặc dù có cộng thêm padding và border -->
+        <!font-family dùng để chỉ ra font chữ (có thể là một danh sách font chữ) cho phần tử. Nếu thiết lập nhiều font chữ thì các font được liệt kê cách nhau bởi dấu phảy -->
+
+
+        <!Phần header -->
+        <div id="header" style="height: 150px; width: 100%; display: flex">
+            <!display trong html có 3 loai inline - block - inline-block
+            <!display: flex - Giúp các thành phần hiển thị linh hoạt -->
+         
+            <!Phần ảnh header -->
+            <div id="img-head" style="width: 40%; height: 100%; background-size: cover; background-position: left">
+                 <!Định dạng phần tử img-head 
+                                width độ rông - chiều cao 
+                                background-size kích thước hình nền: 
+                                                                px, %, 
+                                                                cover(lấp đầy diện tích phần tử),  
+                                                                contain (ty lệ chiều rộng/chiều cao bằng với hình gốc)
+                 <!background-position Vị trí của hình nền ...) --> 
+                    <img src="C:\Users\ADMIN\Desktop\UDDL web_BTVN_Bai9\img_banner.jpg" style="width: 400px; height: 150px">
+            </div>
+            <!header phải -->
+            <div id="ct-head" style="width: 100%;
+                                    background-image: linear-gradient(to right, #ffff, #0066CC);
+                                    <!Màu nền cho hình ảnh linear-Quét màu xuất phát từ 1 phía, có thể theo chiều lên, xuống, trái, phải, đường chéo -->
+                                    text-align: center;
+                                    color: #0033CC">
+                <br>
+                <h2>KHOA CÔNG NGHỆ THÔNG TIN</h2> 
+
+                <h1>CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN</h1>
+            </div>
+        </div>
+
+<!Phần main -->
+<!Khối menu bên trái -->
+    <div style="display: inline-flex;">
+        <div id="Menu_Trai" style="width: 25%; height: 30%">
+            <!thuộc tính display: loại hiển thị của thành phần
+            <div id="tabas-ct" style="width: 20%; background-color: #FFFAF0; border-right: 1px solid">
+                <ul>
+                    <li style="border: 1px solid; background-color: #3399CC; padding: 8px 0">
+                    <a href="">Trang chủ</a></li>
+                    <li><a href="">Danh sách sinh viên</a></li>
+                    <li><a href="">Danh sách MH</a></li>
+                    <li><a href="">Xem điểm</a></li>
+                    <li><a href="">Danh sách SV</a></li>
+                    <li><a href="">Kết quả MH</a></li>
+                    <li><a href="">Kết quả học tập</a></li>
+                    <li><a href=""> Thêm sinh viên</a></li>
+                    <li><a href="">Thêm DS SV</a></li>
+                    <li><a href="">Thêm kết quả SV</a></li>
+                </ul>
+            </div>
+<!Khối form giữa 1 -->
+            <div id="mid-ct" style="width: 50%; display: inline;">
+                <table id="table_1" style="font-size: 40px;
+                                    cursor: pointer;
+                                    /*điều chỉnh hay thay đổi kiểu con trỏ*/
+                                    margin-left: 5px;
+                                    border-top: 2px solid #333;
+                                    /* Viền đậm ở phía trên 2px màu đen (#333) */
+                                    border-left: 2px solid #333">
+                    <caption>THÊM SINH VIÊN</caption>
+                    <tbody style="background-image: linear-gradient(to top, #fff, green); color: #fff">
+                        <!Thẻ tbody dùng để xác định những dòng nào thuộc "phần thân" của bảng -->
+                        <tr>
+                            <td>Mã sinh viên</td>
+                            <td><input type="text"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Họ tên</td>
+                            <td><input type="text"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Ngày sinh</td>
+                            <td><input type="text"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Hình</td>
+                            <td>
+                                <input type="text">
+                                <a href="https://google.com"><button>Browse</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button>Add</button>
+                                <button>Update</button>
+                                <button>Save</button>
+                            </td>
+                        </tr>
+                    </tbody>
+<!Khối form giữa 2 -->
+                   <tfoot >
+                        <tr>
+                            <td colspan="2">
+                                <table id="table_2" style="width: 30%;
+                                                            background-color: #66CCFF;
+                                                            border-collapse: collapse;
+                                                            margin-left: 2px;
+                                                            margin-bottom: 2px;
+                                                            margin-top: 5px;
+                                                            text-align: center;
+                                                            color: #0000AA">
+                                    <caption>DANH SÁCH SINH VIÊN</caption>
+                                    <thead style="background-color: #66CCFF">
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>MASV</th>
+                                            <th>Họ tên</th>
+                                            <th>Ngày sinh</th>
+                                            <th>Hình</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>th09</td>
+                                            <td>Nguyễn Lan</td>
+                                            <td>01/01/1986</td>
+                                            <td>h1.jpg</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>th89</td>
+                                            <td>Thanh Nhàn</td>
+                                            <td>01/08/1985</td>
+                                            <td>h2.gif</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+<!Khối menu bên phải -->
+            <div id="left-ct" style="width: 25%;
+                                        background: #FFFAF0;
+                                        border-left: 1px solid;
+                                        color: #0033CC;
+                                        font-size: 24px;
+                                        display: inline">
+                <img src="https://gcdnb.pbrd.co/images/bRJAbZfLocA3.jpg" alt="" style="width: 100%; object-fit: contain">
+                <span>Giới thiệu lớp chuyên đề</span> <br>
+                <span>Ngôn ngữ lập trình c#, áp dụng trong lập trình Web ❤</span> <br>
+                <span> Tuyển nhân viên lập trình Web</span> <br><br>
+                <img src="https://gcdnb.pbrd.co/images/rGKWpQuNETFC.jpg" alt="" style="width: 100%; object-fit: contain">
+                <br> <br>
+                <a href="">Thông báo về lịch thi HKI</a><br>
+                <a href="">Nhịp sống trẻ</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

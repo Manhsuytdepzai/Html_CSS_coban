@@ -1,0 +1,30 @@
+p{
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    background-color:rgb(252, 185, 207);
+    color: rgb(132, 0, 70);
+}
+#g{
+    text-decoration: underline;
+}
+#boss{
+    font-size: 2rem;
+}
+#nd1{
+    font-style: oblique;
+    color: blue;
+}
+#nd2{
+    font-style: oblique;
+    color: orangered;
+}
+#nd3{
+    font-style: oblique;
+    color: green;
+}
+#nd{
+    background-color: blanchedalmond;
+}

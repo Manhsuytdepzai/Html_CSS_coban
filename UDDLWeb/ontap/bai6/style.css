@@ -1,0 +1,21 @@
+#full{
+    width: 70%;
+    height: auto;
+	margin: auto;
+}
+
+#title{
+    border:5px solid Tomato;
+    color: orangered;
+    text-align: center;
+    font-size: 2rem;
+}
+#nd{
+    font-size: 1.5rem;
+}
+#right{
+    font-size: 2rem;
+    background-color: orangered;
+    color: white;
+    text-align: right;
+}
